@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fishing with Mr. T | Themba Siwele</title>
+    <!-- Tailwind CSS Engine -->
+    <script src="https://tailwindcss.com"></script>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans scroll-smooth">
+
+    <!-- Navigation Bar -->
+    <nav class="bg-gradient-to-r from-blue-950 to-slate-900 text-white p-4 sticky top-0 z-50 shadow-lg">
+        <div class="container mx-auto flex justify-between items-center">
+            <div>
+                <a href="#" class="text-xl md:text-2xl font-black tracking-wider text-amber-400">FISHING WITH MR. T</a>
+                <span class="block text-xs text-slate-400 italic hidden md:block">God first, Family, Business, Fishing</span>
+            </div>
+            <div class="space-x-4 md:space-x-6 flex items-center">
+                <a href="#about" class="hover:text-amber-400 transition hidden sm:inline">About</a>
+                <a href="#destinations" class="hover:text-amber-400 transition hidden sm:inline">Destinations</a>
+                <a href="#shop" class="hover:text-amber-400 transition font-semibold text-amber-400">Shop</a>
+                <a href="#media" class="hover:text-amber-400 transition">Videos</a>
+                <a href="#contact" class="bg-amber-500 text-blue-950 px-4 py-2 rounded-lg font-bold hover:bg-amber-400 transition text-sm">Book Masterclass</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="relative bg-blue-950 text-white h-[85vh] flex items-center justify-center text-center px-4 bg-cover bg-center" style="background-image: linear-gradient(rgba(15, 23, 42, 0.65), rgba(15, 23, 42, 0.85)), url('https://unsplash.com');">
+        <div class="max-w-4xl">
+            <span class="bg-amber-500/20 text-amber-400 font-bold px-4 py-1.5 rounded-full text-xs uppercase tracking-widest mb-4 inline-block">Official Angling Hub</span>
+            <h1 class="text-4xl md:text-7xl font-extrabold mb-4 tracking-tight">Land the Next Monster Catch</h1>
+            <p class="text-lg md:text-2xl text-slate-300 max-w-2xl mx-auto mb-8 font-light">Specimen carp, barbel, and river angling masterclasses guided by <span class="text-amber-400 font-semibold">Themba Siwele</span>.</p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="#shop" class="bg-amber-500 text-blue-950 text-lg font-bold px-8 py-4 rounded-xl hover:bg-amber-400 transition shadow-xl">Get Official Gear</a>
+                <a href="https://youtube.com" target="_blank" class="bg-slate-800/80 border border-slate-700 text-white text-lg font-semibold px-8 py-4 rounded-xl hover:bg-slate-700 transition">Watch on YouTube</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Core Philosophy Banner -->
+    <section class="bg-blue-900 text-white py-6 text-center italic text-sm md:text-base tracking-wide px-4">
+        "God first, Family, Business, Fishing." â Themba Siwele (Mr. T)
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 container mx-auto px-4 max-w-4xl text-center">
+        <h2 class="text-3xl md:text-4xl font-black text-blue-950 mb-6">Meet Mr. T</h2>
+        <p class="text-lg text-slate-600 leading-relaxed mb-8">
+            Themba Siwele is a premier South African specimen angler and outdoor content creator. Specialising in heavy-tackle specimen carp and predatory barbel hunting, his mission is to share precision bait applications, bank strategies, and structural water knowledge to elevate your catch rates.
+        </p>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+            <div class="bg-white p-4 rounded-xl border border-slate-200 shadow-sm"><span class="block text-3xl font-extrabold text-blue-950">Harties</span>Expert Tactics</div>
+            <div class="bg-white p-4 rounded-xl border border-slate-200 shadow-sm"><span class="block text-3xl font-extrabold text-blue-950">Baja Dam</span>Night Fishing</div>
+            <div class="bg-white p-4 rounded-xl border border-slate-200 shadow-sm"><span class="block text-3xl font-extrabold text-blue-950">Vaal</span>River Wilds</div>
+            <div class="bg-white p-4 rounded-xl border border-slate-200 shadow-sm"><span class="block text-3xl font-extrabold text-blue-950">Rodekoppies</span>Monster Carp</div>
+        </div>
+    </section>
+
+    <!-- Merchandise Shop Section with Gateway Links -->
+    <section id="shop" class="bg-slate-900 text-white py-20 border-t border-b border-slate-950">
+        <div class="container mx-auto px-4 max-w-6xl">
+            <div class="text-center mb-16">
+                <span class="text-amber-400 font-bold uppercase tracking-wider text-xs bg-amber-400/10 px-3 py-1 rounded-full">Secure South African Checkout</span>
+                <h2 class="text-3xl md:text-4xl font-black mt-3 mb-4">Official Bank Merchandise</h2>
+                <p class="text-slate-400 max-w-xl mx-auto">Pay securely via Card, Apple Pay, or Instant EFT using our integrated payment links.</p>
+            </div>
+
+            <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Product 1: Official Cap -->
+                <div class="bg-slate-800 rounded-2xl overflow-hidden border border-slate-700 shadow-lg flex flex-col justify-between">
+                    <div class="relative bg-slate-950 h-64 flex items-center justify-center text-slate-500">
+                        <span class="text-xs uppercase tracking-widest font-mono">[ Official Cap Image ]</span>
+                        <span class="absolute top-4 left-4 bg-amber-500 text-slate-950 text-xs font-bold px-2 py-1 rounded">Top Seller</span>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-white mb-2">Official "Fishing with Mr. T" Cap</h3>
+                        <p class="text-slate-400 text-sm mb-4">Premium structured snapback cap built for long days on the bank. Features heavy-duty direct embroidery.</p>
+                        <div class="flex flex-col gap-3 pt-2">
+                            <div class="flex justify-between items-center">
+                                <span class="text-2xl font-extrabold text-amber-400">R150.00</span>
+                                <span class="text-xs text-slate-400">Excl. Delivery</span>
+                            </div>
+                            <!-- Live Yoco / Paystack Link Insertion -->
+                            <a href="https://yoco.com" target="_blank" class="w-full text-center bg-amber-500 hover:bg-amber-400 text-blue-950 py-3 rounded-xl text-sm font-black tracking-wide uppercase transition block shadow-md">ð³ Buy via Secure Checkout</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 2: UV Performance Hoodie -->
+                <div class="bg-slate-800 rounded-2xl overflow-hidden border border-slate-700 shadow-lg flex flex-col justify-between">
+                    <div class="relative bg-slate-950 h-64 flex items-center justify-center text-slate-500">
+                        <span class="text-xs uppercase tracking-widest font-mono">[ UV Tournament Hoodie Image ]</span>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-white mb-2">UV-Protective Fishing Hoodie</h3>
+                        <p class="text-slate-400 text-sm mb-4">Lightweight, high-breathability performance fabric with UPF50+ sun defense for open-water bank runs.</p>
+                        <div class="flex flex-col gap-3 pt-2">
+                            <div class="flex justify-between items-center">
+                                <span class="text-2xl font-extrabold text-amber-400">R450.00</span>
+                                <span class="text-xs text-slate-400">Excl. Delivery</span>
+                            </div>
+                            <a href="https://yoco.com" target="_blank" class="w-full text-center bg-amber-500 hover:bg-amber-400 text-blue-950 py-3 rounded-xl text-sm font-black tracking-wide uppercase transition block shadow-md">ð³ Buy via Secure Checkout</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 3: Custom Specimen Boilies -->
+                <div class="bg-slate-800 rounded-2xl overflow-hidden border border-slate-700 shadow-lg flex flex-col justify-between">
+                    <div class="relative bg-slate-950 h-64 flex items-center justify-center text-slate-500">
+                        <span class="text-xs uppercase tracking-widest font-mono">[ Specimen Boilie Pack Image ]</span>
+                        <span class="absolute top-4 left-4 bg-blue-600 text-white text-xs font-bold px-2 py-1 rounded">Dam Special</span>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-white mb-2">Signature Monster Carp Boilies</h3>
+                        <p class="text-slate-400 text-sm mb-4">Highly responsive feed profile optimized explicitly for deep mud beds at Roodekoppies and Harties.</p>
+                        <div class="flex flex-col gap-3 pt-2">
+                            <div class="flex justify-between items-center">
+                                <span class="text-2xl font-extrabold text-amber-400">R120.00</span>
+                                <span class="text-xs text-slate-400">Excl. Delivery</span>
+                            </div>
